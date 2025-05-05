@@ -10,7 +10,7 @@ export const Footer = () => {
   ];
 
   return (
-    <footer className=" flex items-center justify-center text-center mt-10 bg-primary h-80">
+    <footer className=" flex items-center justify-center text-center bg-primary h-80">
       <div>
         {/* Logo */}
         <div className="flex justify-center items-center gap-4 mb-8">
