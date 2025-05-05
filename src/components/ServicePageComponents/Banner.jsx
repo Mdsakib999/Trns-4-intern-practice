@@ -26,7 +26,7 @@ export const Banner = () => {
 
   return (
     <div>
-      <h1 className="text-6xl font-semibold">
+      <h1 className="text-6xl font-semibold mx-10">
         <p>Learn More About the</p>
         <p>
           Segments <span className="text-primary">We Serve</span>{" "}

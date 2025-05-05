@@ -1,10 +1,10 @@
 import Navbar from "./components/shared/Navbar";
 import { Outlet } from "react-router-dom";
-import Footer from "./components/shared/Footer";
+import { Footer } from "./components/shared/Footer";
 
 const App = () => {
   return (
-    <div className="font-inter">
+    <div>
       <Navbar />
       <div className="pt-0">
         <Outlet />
