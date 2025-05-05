@@ -46,13 +46,13 @@ const Opportunities = () => {
 					alt="box"
 				/>
 				{/* Center Text */}
-				<div className="bg-gradient-to-r from-blue-900/10 via-blue-800/40 to-blue-100/10 backdrop-blur-xl border border-white/30 shadow-xl">
+				<div className="bg-gradient-to-r from-blue-100 via-blue-300 to-blue-500 backdrop-blur-3xl shadow-xl shadow-blue-300 rounded-xl py-10">
 					<div className="flex flex-col items-center text-center px-4 py-3 md:px-6 md:py-4 border border-white/20 rounded-xl shadow-inner">
 						<h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-black leading-tight">
 							<p>Tap into a World of</p>
 							<p>Opportunities.</p>
 						</h1>
-						<button className="bg-blue-800 hover:bg-blue-900 rounded-xl px-4 py-2 mt-3 md:mt-4 text-base md:text-lg text-white transition-colors">
+						<button className="bg-blue-600 hover:bg-blue-700 cursor-pointer rounded-xl px-6 py-2.5 mt-3 md:mt-4 text-base md:text-lg text-white transition-colors">
 							Contact now
 						</button>
 					</div>
