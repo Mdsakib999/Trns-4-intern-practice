@@ -1,7 +1,11 @@
-import React from "react";
-
+import { Service } from "./pages/ServicePage/Service";
+import "./index.css";
 const App = () => {
-	return <div></div>;
+  return (
+    <div>
+      <Service />
+    </div>
+  );
 };
 
 export default App;
