@@ -46,7 +46,7 @@ const Opportunities = () => {
 					alt="box"
 				/>
 				{/* Center Text */}
-				<div className="bg-gradient-to-r from-blue-100 via-blue-300 to-blue-500 backdrop-blur-3xl shadow-xl shadow-blue-300 rounded-xl py-10">
+				<div className="bg-gradient-to-r from-blue-100 via-blue-300 to-blue-500 backdrop-blur-3xl opacity-75 shadow-xl shadow-blue-300 rounded-xl py-10">
 					<div className="flex flex-col items-center text-center px-4 py-3 md:px-6 md:py-4 border border-white/20 rounded-xl shadow-inner">
 						<h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-black leading-tight">
 							<p>Tap into a World of</p>
