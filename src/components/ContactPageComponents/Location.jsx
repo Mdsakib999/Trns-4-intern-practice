@@ -2,18 +2,18 @@ import { FaPhone, FaEnvelope, FaGlobe, FaMapMarkerAlt } from "react-icons/fa";
 import locationIcon from "/assets/locationIcon.png";
 import worldbg from "/assets/world-map.png";
 
-export default function Location() {
-	const locations = [
-		{
-			id: 1,
-			phone: "+49 40 74303412",
-			name: "ECML Logistik GmbH",
-			website: "ecmllogistik.com",
-			email: "info@ecmllogistik.com",
-			address: "Hamburg, Germany",
-		},
-	];
+export const locations = [
+	{
+		id: 1,
+		phone: "+49 40 74303412",
+		name: "ECML Logistik GmbH",
+		website: "ecmllogistik.com",
+		email: "info@ecmllogistik.com",
+		address: "Hamburg, Germany",
+	},
+];
 
+export default function Location() {
 	const locationPins = [
 		{
 			id: 1,
@@ -54,28 +54,28 @@ export default function Location() {
 
 										<div className="space-y-8">
 											<div className="flex items-center gap-3">
-												<div className="text-blue-600">
+												<div className="text-primary">
 													<FaMapMarkerAlt size={18} />
 												</div>
 												<p className="text-gray-600">{location.address}</p>
 											</div>
 
 											<div className="flex items-center gap-3">
-												<div className="text-blue-600">
+												<div className="text-primary">
 													<FaPhone size={18} />
 												</div>
 												<p className="text-gray-600">{location.phone}</p>
 											</div>
 
 											<div className="flex items-center gap-3">
-												<div className="text-blue-600">
+												<div className="text-primary">
 													<FaEnvelope size={18} />
 												</div>
 												<p className="text-gray-600">{location.email}</p>
 											</div>
 
 											<div className="flex items-center gap-3">
-												<div className="text-blue-600">
+												<div className="text-primary">
 													<FaGlobe size={18} />
 												</div>
 												<p className="text-gray-600">{location.website}</p>
