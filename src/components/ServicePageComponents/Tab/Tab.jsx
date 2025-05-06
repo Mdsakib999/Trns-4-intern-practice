@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 export const Tab = () => {
   const menuItems = [
-    { name: "Custom Clearance", path: "/" },
+    { name: "Custom Clearance", path: "/services" },
     { name: "Custom Clearance", path: "/2" },
     { name: "Custom Clearance", path: "/3" },
   ];
@@ -10,18 +10,23 @@ export const Tab = () => {
   return (
     <div
       role="tablist"
-      className="tabs tabs-border w-full text-center mx-auto flex justify-center lg:gap-2 p-2"
+      className="w-full overflow-x-auto whitespace-nowrap flex gap-2 py-4 md:justify-center"
     >
       {menuItems.map((item) => (
         <NavLink
-          key={item.name}
+          key={item.path}
           to={item.path}
           className={({ isActive }) =>
-            `tab ${isActive ? "tab tab-active font-semibold text-primary" : ""} 
-                     textarea-xs sm:text-base lg:text-lg whitespace-nowrap`
+            `tab px-4 py-2 rounded-full border min-w-fit transition 
+            ${
+              isActive
+                ? "tab-active font-semibold text-primary border-primary"
+                : "border-gray-300"
+            } 
+            text-sm sm:text-base lg:text-lg`
           }
-          end
           role="tab"
+          end
         >
           <span className="inline-flex items-center">{item.name}</span>
         </NavLink>

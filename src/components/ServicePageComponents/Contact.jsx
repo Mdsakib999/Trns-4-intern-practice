@@ -2,15 +2,15 @@ import worldmap from "/assets/world-map.png";
 
 export const Contact = () => {
   return (
-    <div className="bg-secondary p-10 mt-20 rounded-md">
-      <h1 className="text-4xl md:text-6xl font-semibold leading-tight mb-10">
+    <div className="bg-secondary px-4 py-10 md:px-10 mt-20 rounded-md max-w-7xl mx-auto">
+      <h1 className="text-3xl md:text-5xl font-semibold leading-tight mb-10 text-center md:text-left">
         <p>Get A Shipping Quote</p>
         <p>
           To <span className="text-blue-600 font-bold">Get Started!</span>
         </p>
       </h1>
 
-      <div className="flex flex-col md:flex-row justify-between items-center gap-10 mx-10">
+      <div className="flex flex-col-reverse md:flex-row justify-between items-center gap-10">
         {/* Form Section */}
         <form className="flex flex-col gap-4 w-full max-w-md">
           <input
@@ -50,7 +50,13 @@ export const Contact = () => {
         </form>
 
         {/* World Map Section */}
-        <img src={worldmap} alt="world map" className="" />
+        <div className="w-full lg:w-1/2 flex justify-center">
+          <img
+            src={worldmap}
+            alt="world map"
+            className="w-full max-w-md object-contain"
+          />
+        </div>
       </div>
     </div>
   );
