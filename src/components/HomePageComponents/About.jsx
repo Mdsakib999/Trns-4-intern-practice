@@ -8,7 +8,7 @@ const About = () => {
 				<h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold leading-snug">
 					<p className="tracking-wide">Seamless Service for</p>
 					<p>
-						a <span className="text-blue-800">Connected World</span>
+						a <span className="text-primary">Connected World</span>
 					</p>
 				</h1>
 

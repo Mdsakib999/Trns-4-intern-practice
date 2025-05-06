@@ -22,7 +22,7 @@ const Services = () => {
 	return (
 		<div className="my-20 px-4 sm:px-8">
 			<h1 className="text-3xl sm:text-5xl font-semibold pl-2 sm:pl-10">
-				Shipping and Logistic <span className="text-blue-500">Services</span>
+				Shipping and Logistic <span className="text-primary">Services</span>
 			</h1>
 
 			<div className="mt-10 space-y-6">
@@ -32,7 +32,7 @@ const Services = () => {
 						key={index}
 					>
 						<div className="flex-1">
-							<p className="text-xl sm:text-2xl text-blue-800 font-bold">
+							<p className="text-xl sm:text-2xl text-primary font-bold">
 								{service.number}
 							</p>
 							<p className="text-sm sm:text-base text-gray-600 max-w-xs">
@@ -42,7 +42,7 @@ const Services = () => {
 
 						{/* Title anchored to bottom */}
 						<div className="sm:flex sm:items-end">
-							<h1 className="text-2xl sm:text-4xl font-bold text-blue-800 leading-tight">
+							<h1 className="text-2xl sm:text-4xl font-bold text-primary leading-tight">
 								{service.title}
 							</h1>
 						</div>
