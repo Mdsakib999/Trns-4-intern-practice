@@ -27,6 +27,7 @@ const Opportunities = () => {
 		<div className="flex items-center justify-center py-16 md:py-24 lg:py-40 px-4">
 			<div className="relative w-full max-w-md md:max-w-lg lg:max-w-xl">
 				{/* Top Images - Hidden on smallest screens */}
+				<div className="absolute -left-96 bg-gradient-to-r from-blue-300 via-blue-500 to-blue-600 opacity-55 backdrop-opacity-25 blur-2xl h-full w-full rounded-2xl"></div>
 				<img
 					className={`w-8 md:w-10 lg:w-14 absolute top-0 ${
 						isMobile ? "left-0" : "-left-16 md:-left-24 lg:-left-32"
@@ -46,7 +47,8 @@ const Opportunities = () => {
 					alt="box"
 				/>
 				{/* Center Text */}
-				<div className="bg-gradient-to-r from-blue-100 via-blue-300 to-blue-500 backdrop-blur-3xl opacity-75 shadow-xl shadow-blue-300 rounded-xl py-10">
+				{/* <div className="bg-gradient-to-r from-blue-100 via-blue-300 to-blue-500 backdrop-blur-3xl opacity-75 shadow-xl shadow-blue-300 rounded-xl py-10"> */}
+				<div className="bg-white">
 					<div className="flex flex-col items-center text-center px-4 py-3 md:px-6 md:py-4 border border-white/20 rounded-xl shadow-inner">
 						<h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-black leading-tight">
 							<p>Tap into a World of</p>
