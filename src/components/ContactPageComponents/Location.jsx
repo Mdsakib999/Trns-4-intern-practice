@@ -25,17 +25,17 @@ export const Location = () => {
   const LocationPin = [
     {
       id: 1,
-      top: "30%",
+      top: "20%",
       left: "20%",
     },
     {
       id: 2,
-      top: "55%",
+      top: "30%",
       left: "53%",
     },
     {
       id: 3,
-      top: "27%",
+      top: "14%",
       left: "80%",
     },
   ];
@@ -82,7 +82,7 @@ export const Location = () => {
               key={pin.id}
               src={locationIcon}
               alt="Location Pin"
-              className="absolute w-6 h-6"
+              className="absolute w-6 h-6 hidden lg:block"
               style={{
                 top: pin.top,
                 left: pin.left,

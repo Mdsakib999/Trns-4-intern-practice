@@ -25,8 +25,8 @@ export const Banner = () => {
   ];
 
   return (
-    <div className="px-4 md:px-10 max-w-7xl mx-auto">
-      <h1 className="text-5xl lg:text-6xl font-semibold text-center md:text-left mx-auto md:mx-0">
+    <div className="px-4 md:px-10 max-w-7xl mx-auto pt-3">
+      <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold text-center md:text-left mx-auto md:mx-0 mt-10">
         <p>Learn More About the</p>
         <p>
           Segments <span className="text-primary">We Serve</span>
