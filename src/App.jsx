@@ -4,7 +4,7 @@ import { Footer } from "./components/shared/Footer";
 
 const App = () => {
   return (
-    <div>
+    <div className="font-inter">
       <Navbar />
       <div className="pt-0 min-h-screen">
         <Outlet />
