@@ -1,4 +1,4 @@
-import logo from "/assets/Logo2.png";
+import logo from "/assets/footerLogo.png";
 import { Link } from "react-router-dom";
 
 export const Footer = () => {
@@ -14,8 +14,7 @@ export const Footer = () => {
 			<div>
 				{/* Logo */}
 				<div className="flex justify-center items-center gap-4 mb-8">
-					<img src={logo} alt="Logo" className="h-6" />{" "}
-					<span className="text-2xl font-semibold text-white">LOGO </span>
+					<img src={logo} className="w-32" alt="Logo" />
 				</div>
 
 				{/* Navigation Links */}
