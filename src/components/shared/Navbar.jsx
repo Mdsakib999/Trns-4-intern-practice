@@ -28,7 +28,7 @@ const Navbar = () => {
     </NavLink>
   ));
   return (
-    <div className="fixed top-0 left-0 right-0 z-10 font-inter bg-white/90 backdrop-blur-sm rounded-2xl px-3 py-2 mx-2 md:mx-4 my-4 border shadow-md">
+    <div className="fixed top-0 left-0 right-0 z-10 font-inter bg-white/90 backdrop-blur-sm rounded-2xl px-3 py-2 mx-2 md:mx-4 my-4  shadow-md">
       <div className="flex items-center justify-between">
         {/* Logo */}
         <h1 className="flex items-center gap-x-1">
