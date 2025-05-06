@@ -20,15 +20,17 @@ export const Tab = () => {
             `tab px-4 py-2 rounded-full border min-w-fit transition 
             ${
               isActive
-                ? "tab-active font-semibold text-primary border-primary"
-                : "border-gray-300"
+                ? "tab-active font-semibold bg-secondary text-white border-primary"
+                : "border-primary"
             } 
-            text-sm sm:text-base lg:text-lg`
+            text-sm lg:text-lg`
           }
           role="tab"
           end
         >
-          <span className="inline-flex items-center">{item.name}</span>
+          <span className="inline-flex items-center text-sm text-black">
+            {item.name}
+          </span>
         </NavLink>
       ))}
     </div>
