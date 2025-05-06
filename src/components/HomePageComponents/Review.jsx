@@ -27,7 +27,7 @@ const Review = () => {
 		<div className="px-4 sm:px-8 md:px-12 lg:px-16 py-8 mt-10">
 			<div className="flex items-end gap-4 mb-10">
 				<h1 className="text-3xl sm:text-4xl md:text-5xl font-bold whitespace-nowrap">
-					Customer <span className="text-blue-800">Reviews</span>
+					Customer <span className="text-primary">Reviews</span>
 				</h1>
 				<div className="flex-1 h-px bg-gray-400"></div>
 			</div>
@@ -46,7 +46,7 @@ const Review = () => {
 								/>
 								<div>
 									<p className="font-semibold">{review.userName}</p>
-									<p className="text-sm text-gray-700">{review.companyName}</p>
+									<p className="text-sm text-gray-300">{review.companyName}</p>
 								</div>
 							</div>
 							<div className="hidden bg-white rounded-full w-10 h-10 lg:flex items-center justify-center p-2">
