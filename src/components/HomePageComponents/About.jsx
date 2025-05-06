@@ -35,7 +35,7 @@ const About = () => {
 
 				{/* Image (not cropped) */}
 				<img
-					className="relative z-10 w-full max-h-[550px] object-contain"
+					className="relative z-0 w-full max-h-[550px] object-contain"
 					src={cargo}
 					alt="Cargo illustration"
 				/>
