@@ -3,6 +3,7 @@ import boat from "/assets/boat.png";
 import box from "/assets/box.png";
 import logotype from "/assets/logotype.png";
 import plane from "/assets/plane.png";
+import { Link } from "react-router-dom";
 
 const Opportunities = () => {
 	const [windowWidth, setWindowWidth] = useState(
@@ -54,9 +55,11 @@ const Opportunities = () => {
 								<p>Tap into a World of</p>
 								<p>Opportunities.</p>
 							</h1>
-							<button className="bg-blue-600 hover:bg-blue-700 cursor-pointer rounded-xl px-6 py-2.5 mt-4 text-base md:text-lg text-white transition-colors">
-								Contact now
-							</button>
+							<Link to="/contact">
+								<button className="bg-primary hover:bg-blue-700 cursor-pointer rounded-xl px-6 py-2.5 mt-4 text-base md:text-lg text-white transition-colors">
+									Contact now
+								</button>
+							</Link>
 						</div>
 					</div>
 				</div>
