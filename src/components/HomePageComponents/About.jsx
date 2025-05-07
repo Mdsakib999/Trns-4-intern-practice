@@ -4,12 +4,15 @@ const About = () => {
 	return (
 		<section className="flex flex-col md:flex-row items-center justify-between mt-16 px-4 md:px-10">
 			{/* Text Section */}
-			<div className="w-full md:w-1/2 flex flex-col justify-center space-y-6 text-center md:text-left">
+			<div
+				data-aos="zoom-in"
+				className="w-full md:w-1/2 flex flex-col justify-center space-y-6 text-center md:text-left"
+			>
 				<h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold leading-snug">
-					<p className="tracking-wide">Seamless Service for</p>
-					<p>
+					<span className="tracking-wide block">Seamless Service for</span>
+					<span className="block">
 						a <span className="text-primary">Connected World</span>
-					</p>
+					</span>
 				</h1>
 
 				<div className="space-y-3">
@@ -23,7 +26,10 @@ const About = () => {
 			</div>
 
 			{/* Image Section */}
-			<div className="w-full md:w-1/2 mt-10 md:mt-0 relative flex justify-center">
+			<div
+				data-aos="zoom-in"
+				className="w-full md:w-1/2 mt-10 md:mt-0 relative flex justify-center"
+			>
 				{/* Background Gradient (shorter) */}
 				<div
 					className="absolute top-0 w-full h-[250px] sm:h-[300px] lg:h-[400px] z-0"

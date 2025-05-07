@@ -20,7 +20,10 @@ export const CustomClearance = () => {
 				</div>
 
 				<div className="w-full md:w-1/2 flex justify-center relative">
-					<div className="bg-secondary w-64 sm:w-72 md:w-80 h-52 sm:h-60 rounded-xl flex items-center justify-center">
+					<div
+						data-aos="fade-up"
+						className="bg-secondary w-64 sm:w-72 md:w-80 h-52 sm:h-60 rounded-xl flex items-center justify-center"
+					>
 						<img
 							src={cardbox}
 							alt="Cardboard Boxes"
