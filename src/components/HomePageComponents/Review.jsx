@@ -34,6 +34,7 @@ const Review = () => {
 			<div className="flex flex-wrap gap-6 justify-center ">
 				{reviews.map((review, index) => (
 					<div
+						data-aos="flip-down"
 						key={index}
 						className="w-full sm:w-[90%] md:w-[45%] lg:w-[30%] bg-gradient-to-br from-blue-300 via-blue-500 to-blue-700 text-white rounded-3xl p-12 shadow-lg"
 					>

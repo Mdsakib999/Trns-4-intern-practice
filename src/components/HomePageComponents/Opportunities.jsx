@@ -49,11 +49,14 @@ const Opportunities = () => {
 					<div className="absolute -inset-6 w-full opacity-50  max-w-xl mx-auto h-full bg-gradient-to-r from-blue-100 via-blue-300 to-blue-500 blur-xl rounded-3xl z-0"></div>
 
 					{/* Glassmorphic Card */}
-					<div className="relative -z-0 bg-blue-100/100 backdrop-blur-3xl mb-10 rounded-2xl p-10 text-center">
+					<div
+						data-aos="zoom-in"
+						className="relative -z-0 bg-blue-100/100 backdrop-blur-3xl mb-10 rounded-2xl p-10 text-center"
+					>
 						<div>
 							<h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">
-								<p>Tap into a World of</p>
-								<p>Opportunities.</p>
+								<span>Tap into a World of </span>
+								<span>Opportunities.</span>
 							</h1>
 							<Link to="/contact">
 								<button className="bg-primary hover:bg-blue-700 cursor-pointer rounded-xl px-6 py-2.5 mt-4 text-base md:text-lg text-white transition-colors">
