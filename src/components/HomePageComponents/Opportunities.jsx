@@ -55,12 +55,12 @@ const Opportunities = () => {
 					>
 						<div>
 							<h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">
-								<span>Tap into a World of </span>
-								<span>Opportunities.</span>
+								<span>Stärken Sie Ihr Geschäft mit globaler </span>
+								<span>Reichweite.</span>
 							</h1>
-							<Link to="/contact">
+							<Link to="/kontaktieren">
 								<button className="bg-primary hover:bg-blue-700 cursor-pointer rounded-xl px-6 py-2.5 mt-4 text-base md:text-lg text-white transition-colors">
-									Contact now
+									Kontaktieren Sie uns jetzt
 								</button>
 							</Link>
 						</div>

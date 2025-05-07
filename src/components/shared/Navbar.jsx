@@ -17,9 +17,9 @@ const Navbar = () => {
 	};
 
 	const menuItems = [
-		{ name: "Home", path: "/" },
-		{ name: "About", path: "/about" },
-		{ name: "Services", path: "/services" },
+		{ name: "STARTSEITE", path: "/" },
+		{ name: "Über", path: "/Über" },
+		{ name: "Dienstleistungen", path: "/Dienstleistungen" },
 	].map((item) => (
 		<NavLink
 			key={item.name}
@@ -51,9 +51,9 @@ const Navbar = () => {
 				</div>
 
 				{/* Desktop Contact Button */}
-				<Link to="/contact">
+				<Link to="/kontaktieren">
 					<button className="cursor-pointer hidden md:block bg-[#004F98] text-white rounded-2xl px-5 py-2 hover:bg-[#003a70] transition-colors">
-						CONTACT
+						kontaktieren
 					</button>
 				</Link>
 

@@ -9,18 +9,25 @@ const About = () => {
 				className="w-full md:w-1/2 flex flex-col justify-center space-y-6 text-center md:text-left"
 			>
 				<h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold leading-snug">
-					<span className="tracking-wide block">Seamless Service for</span>
+					<span className="tracking-wide block">
+						Nahtlose Logistik für eine
+					</span>
 					<span className="block">
-						a <span className="text-primary">Connected World</span>
+						a <span className="text-primary">grenzenlose Welt</span>
 					</span>
 				</h1>
 
 				<div className="space-y-3">
-					<h2 className="text-lg sm:text-xl font-bold">About Our Company</h2>
+					<h2 className="text-lg sm:text-xl font-bold">
+						Über Unser Unternehmen
+					</h2>
 					<p className="text-sm sm:text-base max-w-md md:max-w-lg mx-auto md:mx-0">
-						Free Download Cargo Crate SVG vector file in monocolor and
-						multicolor type for Sketch and Figma from Cargo Crate Vectors svg
-						vector collection. Cargo Crate Vectors SVG vector illustration.
+						ECML Logistics ist ein dynamisches Logistik- und
+						Speditionsunternehmen, das sich auf nahtlose, effiziente und
+						maßgeschneiderte Supply-Chain-Lösungen spezialisiert hat. Mit einem
+						globalen Netzwerk und einem kundenorientierten Ansatz gewährleisten
+						wir die pünktliche und sichere Lieferung von Waren in verschiedenste
+						Branchen.
 					</p>
 				</div>
 			</div>

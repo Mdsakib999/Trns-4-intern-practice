@@ -16,12 +16,14 @@ const Banner = () => {
 
 			{/* Text over image */}
 			<div
-				data-aos="fade-up"
-				className="absolute top-24 left-1/2 transform -translate-x-1/2 text-center w-full px-4 md:top-32 lg:top-48"
+				// data-aos="fade-up"
+				className="absolute top-24 left-1/2 transform -translate-x-1/2 text-center w-full px-4 md:top-32"
 			>
-				<h1 className="text-xl max-w-md mx-auto md:text-5xl font-semibold font-inter drop-shadow-md leading-5 md:leading-12 text-white lg:text-black">
-					<span>Flexible Logistics & </span>
-					<span>Cargo Services</span>
+				<h1 className="text-xl max-w-3xl mx-auto md:text-5xl font-semibold font-inter drop-shadow-md leading-5 md:leading-12 text-white lg:text-black">
+					<span>Logistik, die sich anpasst. </span>
+					<span>
+						Fracht, die liefert. Denn Standardlösungen passen nicht immer.
+					</span>
 				</h1>
 			</div>
 		</div>
