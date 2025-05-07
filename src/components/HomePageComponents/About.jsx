@@ -33,7 +33,7 @@ const About = () => {
 					}}
 				/>
 				<img
-					className="relative z-10 w-full max-w-[300px] sm:max-w-[400px] lg:max-w-none object-contain lg:h-[500px] xl:h-[600px]  -mb-10 lg:-mb-24"
+					className="relative z-0 w-full max-w-[300px] sm:max-w-[400px] lg:max-w-none object-contain lg:h-[500px] xl:h-[600px]  -mb-10 lg:-mb-24"
 					src={cargo}
 					alt="Cargo illustration"
 				/>
