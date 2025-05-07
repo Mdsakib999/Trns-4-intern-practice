@@ -13,7 +13,7 @@ export const locations = [
 	},
 ];
 
-export default function Location() {
+export const Location = () => {
 	const locationPins = [
 		{
 			id: 1,
@@ -112,4 +112,4 @@ export default function Location() {
 			</div>
 		</div>
 	);
-}
+};
