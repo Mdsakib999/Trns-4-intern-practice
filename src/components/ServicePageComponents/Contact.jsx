@@ -1,6 +1,25 @@
 import worldmap from "/assets/world-map.png";
+import locationIcon from "/assets/locationIcon.png";
 
 export const Contact = () => {
+	const locationPins = [
+		{
+			id: 1,
+			top: "30%",
+			left: "20%",
+		},
+		{
+			id: 2,
+			top: "55%",
+			left: "53%",
+		},
+		{
+			id: 3,
+			top: "27%",
+			left: "80%",
+		},
+	];
+
 	return (
 		<div className="bg-secondary p-6 sm:p-10 mt-20 rounded-md">
 			<h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold leading-tight text-center md:text-left">
@@ -47,13 +66,26 @@ export const Contact = () => {
 						SEND
 					</button>
 				</form>
-
-				{/* Image Section - below form on mobile, big on large devices */}
-				<img
-					src={worldmap}
-					alt="world map"
-					className="w-full max-w-md sm:max-w-lg lg:max-w-2xl mx-auto"
-				/>
+				<div className="w-full lg:w-1/2 relative">
+					<img
+						src={worldmap}
+						alt="World Map Background"
+						className="w-full h-auto object-contain"
+					/>
+					{locationPins.map((pin) => (
+						<div
+							key={pin.id}
+							className="absolute animate-bounce"
+							style={{
+								top: pin.top,
+								left: pin.left,
+								transform: "translate(-50%, -100%)",
+							}}
+						>
+							<img src={locationIcon} alt="Location Pin" className="w-6 h-6" />
+						</div>
+					))}
+				</div>
 			</div>
 		</div>
 	);
