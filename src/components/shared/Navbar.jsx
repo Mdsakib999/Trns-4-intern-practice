@@ -39,9 +39,11 @@ const Navbar = () => {
 		<div className="fixed top-0 left-0 right-0 z-10 font-inter bg-white/90 backdrop-blur-sm rounded-2xl px-3 py-2 my-4 shadow-md max-w-[1200px] mx-auto">
 			<div className="flex items-center justify-between">
 				{/* Logo */}
-				<h1 className="flex items-center gap-x-1 pl-5 md:pl-10">
-					<img src={logo} alt="" className="h-8 w-auto" />
-				</h1>
+				<Link to="/">
+					<h1 className="flex items-center gap-x-1 pl-5 md:pl-10">
+						<img src={logo} alt="" className="h-8 w-auto" />
+					</h1>
+				</Link>
 
 				{/* Desktop Navigation */}
 				<div className="hidden md:flex items-center justify-between gap-5 text-lg">
