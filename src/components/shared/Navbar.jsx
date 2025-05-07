@@ -71,9 +71,9 @@ const Navbar = () => {
 			{isOpen && (
 				<div className="md:hidden py-4 flex flex-col space-y-4 animate-fadeIn">
 					{menuItems}
-					<Link to="/contact">
+					<Link to="/kontaktieren">
 						<button className="bg-[#004F98] text-white rounded-2xl px-5 py-2 hover:bg-[#003a70] transition-colors w-full">
-							CONTACT
+							kontaktieren
 						</button>
 					</Link>
 				</div>
