@@ -5,7 +5,7 @@ export const TransSolution = () => {
 	return (
 		<div className="flex flex-col items-center justify-center mt-28 px-4 md:px-10 max-w-7xl mx-auto relative">
 			<h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold text-center z-0 relative">
-				Transport <span className="text-primary">Solutions</span>
+				Transport<span className="text-primary">lösungen</span>
 			</h1>
 
 			{/* Gradient background visual */}

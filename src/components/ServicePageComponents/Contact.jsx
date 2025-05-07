@@ -22,10 +22,10 @@ export const Contact = () => {
 
 	return (
 		<div className="bg-secondary p-6 sm:p-10 mt-20 rounded-md">
-			<h1 className="w-full md:w-2/3 max-w-md mx-auto md:mx-0 text-center md:text-left text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold leading-tight">
-				<span className="block">Get A Shipping Quote</span>
+			<h1 className="w-full md:w-2/3 max-w-2xl mx-auto md:mx-0 text-center md:text-left text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold leading-tight">
+				<span className="block">Starten Sie Ihre Frachtreise hier</span>
 				<span className="block">
-					To <span className="text-primary font-bold">Get Started!</span>
+					To <span className="text-primary font-bold">Frachtreise hier!</span>
 				</span>
 			</h1>
 

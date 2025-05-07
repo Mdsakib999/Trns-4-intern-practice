@@ -7,16 +7,21 @@ const AboutBanner = () => {
 			className="text-center flex flex-col mt-28 space-y-5 mb-16 px-4"
 		>
 			<h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold">
-				ABOUT OUR <span className="text-primary">COMPANY</span>
+				Über Unser <span className="text-primary">Unternehmen</span>
 			</h1>
 			<div className="w-full max-w-md sm:max-w-lg md:max-w-xl lg:max-w-2xl mx-auto text-sm sm:text-base">
-				has been offering comprehensive import and export services since 2006,
-				specializing in Eastern Europe. Trust in our tailor-made solutions for
-				your transport needs.
+				ECML Logistics ist ein vertrauenswürdiger Anbieter internationaler
+				Speditions- und Logistiklösungen und spezialisiert sich auf
+				maßgeschneiderte Import- und Exportdienstleistungen mit Schwerpunkt auf
+				Osteuropa. Wir bieten ein umfassendes Transportmanagement zu Land, zu
+				Wasser und in der Luft und gewährleisten dabei eine zuverlässige,
+				effiziente und transparente Lieferung in jeder Phase. Unser erfahrenes
+				Team engagiert sich dafür, Unternehmen beim nahtlosen und sicheren
+				Warenverkehr über Grenzen hinweg zu unterstützen.
 			</div>
-			<Link to="/contact">
+			<Link to="/kontaktieren">
 				<button className="cursor-pointer bg-primary text-white px-5 py-2 rounded w-40 mx-auto text-sm sm:text-base">
-					Contact now
+					Jetzt kontaktieren
 				</button>
 			</Link>
 		</div>

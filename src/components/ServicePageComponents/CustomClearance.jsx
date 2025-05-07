@@ -7,11 +7,16 @@ export const CustomClearance = () => {
 			<div className="flex flex-col-reverse md:flex-row justify-between items-center gap-10 max-w-7xl w-full">
 				<div className="w-full md:w-1/2 text-center md:text-left">
 					<h1 className="text-2xl md:text-3xl font-semibold">
-						Custom Clearance
+						Zollabfertigung
 					</h1>
 					<p className="text-sm mt-5 md:w-4/5 mx-auto md:mx-0">
-						TTOIL operates in UAE, Turkey, Azerbaijan, Russia, Ukraine, Georgia,
-						Kazakhstan, Turkmenistan and other CIS and Central Asian Countries.
+						TTOIL bietet zuverlässige und effiziente Zollabfertigungsdienste in
+						den VAE, der Türkei, Aserbaidschan, Russland, der Ukraine, Georgien,
+						Kasachstan, Turkmenistan sowie in weiteren GUS- und
+						zentralasiatischen Ländern. Unser erfahrenes Team sorgt für die
+						vollständige Einhaltung lokaler Vorschriften und ermöglicht einen
+						reibungslosen grenzüberschreitenden Warenverkehr bei minimalen
+						Verzögerungen.
 					</p>
 
 					<button className="btn mt-5 flex items-center gap-2 mx-auto md:mx-0">
