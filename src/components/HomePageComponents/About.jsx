@@ -26,16 +26,14 @@ const About = () => {
 			<div className="w-full md:w-1/2 mt-10 md:mt-0 relative flex justify-center">
 				{/* Background Gradient (shorter) */}
 				<div
-					className="absolute top-0 w-full h-[350px] z-0"
+					className="absolute top-0 w-full h-[250px] sm:h-[300px] lg:h-[400px] z-0"
 					style={{
 						backgroundImage:
 							"linear-gradient(to right, transparent 20%, #bfdbfe 100%)",
 					}}
 				/>
-
-				{/* Image (not cropped) */}
 				<img
-					className="relative z-0 w-full max-h-[550px] object-contain"
+					className="relative z-10 w-full max-w-[300px] sm:max-w-[400px] lg:max-w-none object-contain lg:h-[500px] xl:h-[600px]  -mb-10 lg:-mb-24"
 					src={cargo}
 					alt="Cargo illustration"
 				/>
