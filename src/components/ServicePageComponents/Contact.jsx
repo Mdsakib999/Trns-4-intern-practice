@@ -15,8 +15,8 @@ export const Contact = () => {
 		},
 		{
 			id: 3,
-			top: "27%",
-			left: "80%",
+			top: "22%",
+			left: "77%",
 		},
 	];
 
@@ -82,7 +82,11 @@ export const Contact = () => {
 								transform: "translate(-50%, -100%)",
 							}}
 						>
-							<img src={locationIcon} alt="Location Pin" className="w-6 h-6" />
+							<img
+								src={locationIcon}
+								alt="Location Pin"
+								className="w-3.5 h-3.5 md:w-6 md:h-6"
+							/>
 						</div>
 					))}
 				</div>
