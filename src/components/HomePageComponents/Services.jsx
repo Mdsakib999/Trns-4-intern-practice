@@ -20,7 +20,7 @@ const serviceMenu = [
 
 const Services = () => {
 	return (
-		<div className="my-4 md:mt-10 md:mb-20 px-4 sm:px-8">
+		<div className="md:mb-20 px-4 sm:px-8 mt-16">
 			<h1 className="text-3xl sm:text-5xl font-semibold pl-2 sm:pl-10">
 				Shipping and Logistic <span className="text-primary">Services</span>
 			</h1>
