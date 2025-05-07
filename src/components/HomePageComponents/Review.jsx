@@ -5,20 +5,29 @@ const reviews = [
 	{
 		imgUrl:
 			"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjDGMp734S91sDuUFqL51_xRTXS15iiRoHew&s",
-		userName: "Kathleen Smith",
-		companyName: "Google",
+		userName: "John M.",
+		companyName: "Supply Chain Manager",
 		content:
-			"Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.",
+			"Wir arbeiten nun seit einem Jahr mit ECML Logistics zusammen und sind mehr als zufrieden mit ihrem Service. Sie bieten effiziente und zuverlässige Lösungen für unsere Versandanforderungen in verschiedenen Regionen. Ob Luft-, See- oder Straßentransport – sie liefern immer pünktlich. Ihr Kundenserviceteam ist stets erreichbar und hilfsbereit!",
 		stars: 5,
 	},
 	{
 		imgUrl:
 			"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjDGMp734S91sDuUFqL51_xRTXS15iiRoHew&s",
-		userName: "Kathleen Smith",
-		companyName: "Google",
+		userName: "Michael P.",
+		companyName: "Logistics Manager",
 		content:
-			"Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.",
-		stars: 4,
+			"Wir nutzen nun seit über zwei Jahren ECML Logistics für all unsere Sendungen, und sie haben uns nie im Stich gelassen. Ihre Liebe zum Detail und ihre Fähigkeit, komplexe Logistikherausforderungen zu meistern, heben sie von der Konkurrenz ab.",
+		stars: 5,
+	},
+	{
+		imgUrl:
+			"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjDGMp734S91sDuUFqL51_xRTXS15iiRoHew&s",
+		userName: "Sarah L.",
+		companyName: "Operations Director",
+		content:
+			"ECML Logistics hat die Art und Weise, wie wir unser Frachtmanagement betreiben, revolutioniert. Ihr Team ist proaktiv, und ihre Fähigkeit, maßgeschneiderte Lösungen zu bieten, ist außergewöhnlich. Vom Luftfrachttransport bis zur Zollabfertigung – sie machen den gesamten Prozess reibungslos und stressfrei. Wir können sie nur wärmstens empfehlen!",
+		stars: 5,
 	},
 ];
 
@@ -26,8 +35,9 @@ const Review = () => {
 	return (
 		<div className="px-4 sm:px-8 md:px-12 lg:px-16 py-8 mt-10">
 			<div className="flex items-end gap-4 mb-10">
-				<h1 className="text-3xl sm:text-4xl md:text-5xl font-bold whitespace-nowrap">
-					Customer <span className="text-primary">Reviews</span>
+				<h1 className="text-3xl sm:text-4xl md:text-5xl font-bold">
+					Erfolgsgeschichten unserer geschätzten
+					<span className="text-primary"> Kunden</span>
 				</h1>
 				<div className="flex-1 h-px bg-gray-400"></div>
 			</div>

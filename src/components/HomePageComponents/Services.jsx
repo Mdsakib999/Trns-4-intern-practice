@@ -3,18 +3,21 @@ import { div } from "framer-motion/client";
 const serviceMenu = [
 	{
 		number: "01",
-		content: "We make it easy to find storage solutions with air freight",
-		title: "AIR FREIGHT",
+		content:
+			"Schnelle und zuverlässige Luftfrachtlösungen für dringende Lieferungen",
+		title: "Luftfracht",
 	},
 	{
 		number: "02",
-		content: "We make it easy to find storage solutions with air freight",
-		title: "ROAD FREIGHT",
+		content:
+			"Flexible und effiziente Straßentransporte für nationale und internationale Strecken",
+		title: "Seefracht",
 	},
 	{
 		number: "03",
-		content: "We make it easy to find storage solutions with air freight",
-		title: "OCEAN FREIGHT",
+		content:
+			"Kostengünstige und sichere Seefrachtlösungen für Ihren weltweiten Versandbedarf",
+		title: "Straßentransport",
 	},
 ];
 
@@ -22,7 +25,8 @@ const Services = () => {
 	return (
 		<div className="md:mb-20 px-4 sm:px-8 mt-16">
 			<h1 className="text-3xl sm:text-5xl font-semibold pl-2 sm:pl-10">
-				Shipping and Logistic <span className="text-primary">Services</span>
+				Versand- & Logistik
+				<span className="text-primary"> dienstleistungen</span>
 			</h1>
 
 			<div className="mt-10 space-y-6">

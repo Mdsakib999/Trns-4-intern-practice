@@ -6,28 +6,28 @@ import About from "./pages/About/About";
 import { Contact } from "./pages/ContactPage/Contact";
 
 const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <App />,
-    children: [
-      {
-        path: "/",
-        element: <Home />,
-      },
-      {
-        path: "/about",
-        element: <About />,
-      },
-      {
-        path: "/services",
-        element: <Service />,
-      },
-      {
-        path: "/contact",
-        element: <Contact />,
-      },
-    ],
-  },
+	{
+		path: "/",
+		element: <App />,
+		children: [
+			{
+				path: "/",
+				element: <Home />,
+			},
+			{
+				path: "/Über",
+				element: <About />,
+			},
+			{
+				path: "/Dienstleistungen",
+				element: <Service />,
+			},
+			{
+				path: "/kontaktieren",
+				element: <Contact />,
+			},
+		],
+	},
 ]);
 
 export default router;
