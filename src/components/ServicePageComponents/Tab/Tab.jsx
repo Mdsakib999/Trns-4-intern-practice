@@ -2,9 +2,10 @@ import { NavLink } from "react-router-dom";
 
 export const Tab = () => {
 	const menuItems = [
-		{ name: "Custom Clearance", path: "#" },
-		{ name: "Custom Clearance", path: "#" },
-		{ name: "Custom Clearance", path: "#" },
+		{ name: "Zollabfertigung", path: "#" },
+		{ name: "Lagerung und Distribution", path: "#" },
+		{ name: "Temperaturgeführte Logistik", path: "#" },
+		{ name: "Lieferung von Tür zu Tür", path: "#" },
 	];
 
 	return (

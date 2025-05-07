@@ -6,20 +6,20 @@ export const Banner = () => {
 	const cardItems = [
 		{
 			id: 1,
-			name: "CARRYING THE LOAD",
-			desc: "Free Download Cargo Crate SVG vector file in monocolor and multicolor type for Sketch and Figma from Cargo Crate Vectors svg vector collection. Cargo Crate Vectors SVG vector illustration.",
+			name: "Seefracht",
+			desc: "Flexible Seefrachtoptionen: FCL (Full Container Load), LCL (Less than Container Load), Stückgut und spezialisierte Ausstattungen. Wir sorgen für kostengünstigen und sicheren Transport weltweit, unterstützt durch unsere globalen Vereinbarungen mit Frachtführern.",
 			image: ship,
 		},
 		{
 			id: 2,
-			name: "CARRYING THE LOAD",
-			desc: "Free Download Cargo Crate SVG vector file in monocolor and multicolor type for Sketch and Figma from Cargo Crate Vectors svg vector collection. Cargo Crate Vectors SVG vector illustration.",
+			name: "Straßentransport",
+			desc: "Umfassende Straßentransportlösungen in Europa und darüber hinaus — von Sammelgut und Teilladungen bis hin zu Komplettladungen. Wir bieten temperaturgeführte Transporte, Gefahrgut- und Expresslieferungen.",
 			image: parcel,
 		},
 		{
 			id: 3,
-			name: "CARRYING THE LOAD",
-			desc: "Free Download Cargo Crate SVG vector file in monocolor and multicolor type for Sketch and Figma from Cargo Crate Vectors svg vector collection. Cargo Crate Vectors SVG vector illustration.",
+			name: "Luftfracht",
+			desc: "Schnelle, zuverlässige globale Luftfrachtlösungen, einschließlich zeitkritischer, express- und temperaturgeführter Sendungen. Wir übernehmen alles, von Konsolidierung bis hin zu Charterdiensten, mit vollständiger Sendungsverfolgung und Zollabfertigung.",
 			image: airplane,
 		},
 	];
@@ -27,9 +27,9 @@ export const Banner = () => {
 	return (
 		<div className="px-4 md:px-10 max-w-7xl mx-auto pt-3">
 			<h1 className="w-full mx-auto md:mx-0 text-center md:text-left text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold mt-10">
-				<span className="block">Learn More About the</span>
+				<span className="block">Entdecken Sie die Märkte, </span>
 				<span className="block text-primary font-bold">
-					Segments <span className="text-primary">We Serve</span>
+					die <span className="text-primary">wir bedienen</span>
 				</span>
 			</h1>
 
