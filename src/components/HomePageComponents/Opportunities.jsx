@@ -49,10 +49,7 @@ const Opportunities = () => {
 					<div className="absolute -inset-6 w-full opacity-50  max-w-xl mx-auto h-full bg-gradient-to-r from-blue-100 via-blue-300 to-blue-500 blur-xl rounded-3xl z-0"></div>
 
 					{/* Glassmorphic Card */}
-					<div
-						data-aos="zoom-in"
-						className="relative -z-0 bg-blue-100/100 backdrop-blur-3xl mb-10 rounded-2xl p-10 text-center"
-					>
+					<div className="relative -z-0 bg-blue-100/100 backdrop-blur-3xl mb-10 rounded-2xl p-10 text-center">
 						<div>
 							<h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">
 								<span>Stärken Sie Ihr Geschäft mit globaler </span>

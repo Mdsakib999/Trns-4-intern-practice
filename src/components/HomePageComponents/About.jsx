@@ -4,10 +4,7 @@ const About = () => {
 	return (
 		<section className="flex flex-col md:flex-row items-center justify-between mt-16 px-4 md:px-10">
 			{/* Text Section */}
-			<div
-				data-aos="zoom-in"
-				className="w-full md:w-1/2 flex flex-col justify-center space-y-6 text-center md:text-left"
-			>
+			<div className="w-full md:w-1/2 flex flex-col justify-center space-y-6 text-center md:text-left">
 				<h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold leading-snug">
 					<span className="tracking-wide block">
 						Nahtlose Logistik für eine

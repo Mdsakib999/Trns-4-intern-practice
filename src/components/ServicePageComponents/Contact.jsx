@@ -66,7 +66,7 @@ export const Contact = () => {
 						SEND
 					</button>
 				</form>
-				<div data-aos="zoom-in-up" className="w-full lg:w-1/2 relative">
+				<div className="w-full lg:w-1/2 relative">
 					<img
 						src={worldmap}
 						alt="World Map Background"
@@ -75,7 +75,7 @@ export const Contact = () => {
 					{locationPins.map((pin) => (
 						<div
 							key={pin.id}
-							className="absolute animate-bounce"
+							className="absolute"
 							style={{
 								top: pin.top,
 								left: pin.left,
