@@ -85,7 +85,7 @@ export const Contact = () => {
 							<img
 								src={locationIcon}
 								alt="Location Pin"
-								className="w-3.5 h-3.5 md:w-6 md:h-6"
+								className="w-3.5 h-3.5 md:w-6 md:h-6 animate-bounce"
 							/>
 						</div>
 					))}
