@@ -20,7 +20,7 @@ const AboutBanner = () => {
 				Warenverkehr über Grenzen hinweg zu unterstützen.
 			</div>
 			<Link to="/kontaktieren">
-				<button className="cursor-pointer bg-primary text-white px-5 py-2 rounded w-40 mx-auto text-sm sm:text-base">
+				<button className="cursor-pointer bg-primary text-white px-5 py-2 rounded mx-auto text-sm sm:text-base">
 					Jetzt kontaktieren
 				</button>
 			</Link>
