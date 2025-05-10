@@ -5,10 +5,10 @@ import { Link } from "react-router-dom";
 
 export const Footer = () => {
 	const menuItems = [
-		{ name: "About", path: "/about" },
-		{ name: "Contact", path: "/contact" },
+		{ name: "About", path: "/Über" },
+		{ name: "Contact", path: "/kontaktieren" },
 		{ name: "Logistics", path: "#" },
-		{ name: "Services", path: "/services" },
+		{ name: "Services", path: "/Dienstleistungen" },
 	];
 
 	return (
@@ -18,7 +18,7 @@ export const Footer = () => {
 				<div className="flex flex-col gap-4 w-full md:w-1/3 text-center md:text-left items-center md:items-start">
 					<img src={logo} className="w-32" alt="Logo" />
 					<p>
-					Von der Abholung bis zur Zustellung
+						Von der Abholung bis zur Zustellung
 						<br />
 						Präzision in jedem Paket
 					</p>
