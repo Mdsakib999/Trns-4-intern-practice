@@ -5,10 +5,10 @@ import { Link } from "react-router-dom";
 
 export const Footer = () => {
 	const menuItems = [
-		{ name: "About", path: "/Über" },
-		{ name: "Contact", path: "/kontaktieren" },
-		{ name: "Logistics", path: "#" },
-		{ name: "Services", path: "/Dienstleistungen" },
+		{ name: "Über", path: "/Über" },
+		{ name: "kontaktieren", path: "/kontaktieren" },
+		{ name: "Impressum & Datenschutz", path: "ImpressumDatenschutz" },
+		{ name: "Dienstleistungen", path: "/Dienstleistungen" },
 	];
 
 	return (
@@ -30,7 +30,7 @@ export const Footer = () => {
 						<Link
 							key={item.name}
 							to={item.path}
-							className="hover:text-black transition-colors duration-200"
+							className="hover:text-blue-400 transition-colors duration-200"
 						>
 							{item.name}
 						</Link>

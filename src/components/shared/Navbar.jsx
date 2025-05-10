@@ -59,7 +59,7 @@ const Navbar = () => {
 
 				{/* Mobile Menu Button */}
 				<button
-					className="md:hidden text-2xl"
+					className="md:hidden text-2xl cursor-pointer"
 					onClick={toggleMenu}
 					aria-label="Toggle menu"
 				>
@@ -69,7 +69,7 @@ const Navbar = () => {
 
 			{/* Mobile Menu */}
 			{isOpen && (
-				<div className="md:hidden py-4 flex flex-col space-y-4 animate-fadeIn">
+				<div className="md:hidden py-4 flex flex-col space-y-4">
 					{menuItems}
 					<Link to="/kontaktieren">
 						<button className="bg-[#004F98] text-white rounded-2xl px-5 py-2 hover:bg-[#003a70] transition-colors w-full">
