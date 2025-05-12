@@ -31,7 +31,7 @@ const About = () => {
 
 			{/* Image Section */}
 			<div
-				data-aos="zoom-in"
+				data-aos="fade-up"
 				className="w-full md:w-1/2 mt-10 md:mt-0 relative flex justify-center"
 			>
 				{/* Background Gradient (shorter) */}

@@ -7,8 +7,8 @@ export const Footer = () => {
 	const menuItems = [
 		{ name: "Über", path: "/Über" },
 		{ name: "kontaktieren", path: "/kontaktieren" },
-		{ name: "Impressum & Datenschutz", path: "ImpressumDatenschutz" },
 		{ name: "Dienstleistungen", path: "/Dienstleistungen" },
+		{ name: "Impressum & Datenschutz", path: "ImpressumDatenschutz" },
 	];
 
 	return (

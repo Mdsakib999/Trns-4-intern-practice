@@ -5,7 +5,7 @@ const Banner = () => {
 		<div className="relative w-full">
 			{/* Banner Image */}
 			<img
-				data-aos="zoom-in"
+				data-aos=""
 				src={bannerImage}
 				alt="Banner"
 				className="w-full object-cover"
